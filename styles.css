@@ -9,7 +9,7 @@ html {
     background-color:rgb(75,75,75);
     background-image: url(imgs/index.png);
     background-blend-mode:multiply;
-    background-size:auto;
+    background-size:contain;
     padding-bottom:65px;
 
 }
