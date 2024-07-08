@@ -1,10 +1,40 @@
-.main-header {
-    background-image:url("./imgs/index.png";
-    background-size: cover;
-    display: inline-block;
-    text-align: center;
-    margin: auto;
-}
 * {
-    background-color:blue;
+    box-sizing:border-box;
+    color:black;
 }
+html {
+    background-color:rgb(150,150,150)
+}
+.main-header {
+    background-color:rgb(75,75,75);
+    background-image: url(imgs/index.png);
+    background-blend-mode:multiply;
+    background-size:auto;
+    padding-bottom:65px;
+
+}
+.index-title {
+    display:block;
+    text-align:center;
+    margin:auto;
+    padding-top:25px;
+    color:yellow;
+    font-size: 60px;
+}
+.index-odin {
+    margin:auto;
+    background-image: url(imgs/odinp1.png);
+    background-color:rgb(150,150,150);
+    background-blend-mode:multiply;
+    background-size:cover;
+    padding:260px;
+}
+/*.list-recipes{
+    display:inline-block;
+    padding: 0.5em;
+    text-decoration:none;
+}
+.list-recipes:hover {
+    background-color:#FFFb
+}*/
+/*The above commented section is a work in progress, I may not include*/
