@@ -1,40 +1,45 @@
 * {
     box-sizing:border-box;
-    color:black;
 }
 html {
-    background-color:rgb(150,150,150)
+    background-color:rgb(150,150,150);
 }
 .main-header {
     background-color:rgb(75,75,75);
     background-image: url(imgs/index.png);
     background-blend-mode:multiply;
     background-size:contain;
-    padding-bottom:65px;
 
 }
+section {
+	 background-color:rgb(150,150,150);
+	 background-image: url(imgs/odinp1.png);
+	 background-blend-mode:multiply;
+	 background-size:cover;
+	 background-size:245px;
+}
 .index-title {
+	text-shadow:4px 4px black;
     display:block;
     text-align:center;
     margin:auto;
-    padding-top:25px;
-    color:yellow;
+    padding-top:18px;
+    color:rgba(255,255,0.3);
     font-size: 60px;
+	
 }
 .index-odin {
+	text-shadow:1px 1px black;
     margin:auto;
-    background-image: url(imgs/odinp1.png);
-    background-color:rgb(150,150,150);
-    background-blend-mode:multiply;
-    background-size:cover;
     padding:260px;
+    padding-top: 0px;
+	color:yellow;
 }
-/*.list-recipes{
-    display:inline-block;
-    padding: 0.5em;
-    text-decoration:none;
+.list a {
+	text-decoration:none;
+	color:rgba(255,255,0,.7);
 }
-.list-recipes:hover {
-    background-color:#FFFb
-}*/
-/*The above commented section is a work in progress, I may not include*/
+.list a:hover {
+	background-color:rgba(255,255,0,.3);
+}
+
