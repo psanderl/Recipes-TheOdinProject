@@ -18,7 +18,6 @@ html {
 	 background-color:rgb(150,150,150);
 	 background-image: url(imgs/odinp1.png);
 	 background-blend-mode:multiply;
-	 background-size:cover;
      background-repeat:space;
 	 background-size:245px;
      text-shadow:1px 1px black;
@@ -61,5 +60,12 @@ html {
     flex-direction:column;
     justify-content:space-around;
     background-image:url(imgs/stew.jpg);
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: soft-light;
     background-size:cover;
+    padding-bottom:500px;
+    color:#ff0;
+    text-shadow:4px 4px #000;
+    
+    
 }
