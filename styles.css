@@ -1,5 +1,7 @@
 * {
-    box-sizing:border-box;
+    /*box-sizing:border-box;
+   border:solid;
+    border-color:red;*/
 }
 html {
     background-color:rgb(150,150,150);
@@ -9,14 +11,21 @@ html {
     background-image: url(imgs/index.png);
     background-blend-mode:multiply;
     background-size:contain;
+    background-repeat: space;
 
 }
-section {
+.index-odin {
 	 background-color:rgb(150,150,150);
 	 background-image: url(imgs/odinp1.png);
 	 background-blend-mode:multiply;
 	 background-size:cover;
+     background-repeat:space;
 	 background-size:245px;
+     text-shadow:1px 1px black;
+     margin:auto;
+     padding:260px;
+     padding-top: 0px;
+	 color:yellow;
 }
 .index-title {
 	text-shadow:4px 4px black;
@@ -28,13 +37,6 @@ section {
     font-size: 60px;
 	
 }
-.index-odin {
-	text-shadow:1px 1px black;
-    margin:auto;
-    padding:260px;
-    padding-top: 0px;
-	color:yellow;
-}
 .list a {
 	text-decoration:none;
 	color:rgba(255,255,0,.7);
@@ -42,4 +44,22 @@ section {
 .list a:hover {
 	background-color:rgba(255,255,0,.3);
 }
-
+.header {
+    display:flex;
+    justify-content: center;
+    background-image: url(imgs/tree.jpg);
+    background-color:rgba(75,75,75,1);
+    background-blend-mode:multiply;
+    background-size:contain;
+    background-repeat:space;
+    text-shadow:4px 4px black;
+    color:rgba(255,255,0.3);
+    font-size:20px;
+}
+.stew-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    background-image:url(imgs/stew.jpg);
+    background-size:cover;
+}
