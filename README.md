@@ -6,4 +6,5 @@ Recipes will include the following!
 -Viking Flatbread
 -Salted Caramel Apples
 -Traditional mead
+-Non Alcoholic alternative to mead
 Hope you enjoy!
